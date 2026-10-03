@@ -45,62 +45,93 @@
 //Operaters-----------------------
 //1.Arithmetic operators
 
-let a=10;
-let b=5;
+// let a=10;
+// let b=5;
 
-console.log(a+b);
-console.log(a-b);
-console.log(a*b);
-console.log(a/b);
-console.log(a%b);
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a/b);
+// console.log(a%b);
 
-//2.Assignment operators
-let c=10;
-c+=5;
-console.log(c);
+// //2.Assignment operators
+// let c=10;
+// c+=5;
+// console.log(c);
 
-c-=5;
-console.log(c);
+// c-=5;
+// console.log(c);
 
-c*=5;
-console.log(c);
+// c*=5;
+// console.log(c);
 
-c/=5;
-console.log(c);
+// c/=5;
+// console.log(c);
 
-c%=5;
-console.log(c);
+// c%=5;
+// console.log(c);
 
-//3.Comparison operators
-let d=10;
-let e=20;
+// //3.Comparison operators
+// let d=10;
+// let e=20;
 
-console.log(d==e);
-console.log(d!=e);
-console.log(d>e);
-console.log(d<e);
-console.log(d===e);
+// console.log(d==e);
+// console.log(d!=e);
+// console.log(d>e);
+// console.log(d<e);
+// console.log(d===e);
 
-//4.Logical operators
-let f =true;
-let r =false;
-console.log(f&&r);
-console.log(f||r);
-console.log(!f);
-console.log(!r);
+// //4.Logical operators
+// let f =true;
+// let r =false;
+// console.log(f&&r);
+// console.log(f||r);
+// console.log(!f);
+// console.log(!r);
 
-//5.Conditional operators
-let age=18;
-let result=age>=18?"You are eligible to vote":"You are not eligible to vote";
-console.log(result);
+// //5.Conditional operators
+// let age=18;
+// let result=age>=18?"You are eligible to vote":"You are not eligible to vote";
+// console.log(result);
 
-//6.Bitwise operators
-let x=5; //0101
-let y=3; //0011
+// //6.Bitwise operators
+// let x=5; //0101
+// let y=3; //0011
 
-console.log(x&y); //0001 => 1
-console.log(x|y); //0111 => 7
-console.log(x^y); //0110 => 6
-console.log(~x);  //1010 => -6
-console.log(x<<1); //1010 => 10
-console.log(x>>1); //0010 => 2
+// console.log(x&y); //0001 => 1
+// console.log(x|y); //0111 => 7
+// console.log(x^y); //0110 => 6
+// console.log(~x);  //1010 => -6
+// console.log(x<<1); //1010 => 10
+// console.log(x>>1); //0010 => 2
+
+//conditional statements--------------------
+//if
+// let salary=10000;
+// if(salary>10000){
+//     console.log("buy bike");}
+//     else{
+//         console.log("buy cycle");
+//     }
+
+//else if
+// let salary=10000;
+// if(salary>10000){
+//     console.log("buy bike");}
+//     else if(salary==10000){
+//         console.log("buy cycle");
+//     }else if(salary<=1000){
+//         console.log("buy something")
+//     }
+
+// nested if
+// let salary=10000;
+// let emi=100;
+// if(salary==10000){
+//     if(emi==100){
+//         console.log("buy cycle");
+//     }
+//     else{
+//         console.log("select your EMI");
+//     }
+// }
