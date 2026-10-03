@@ -229,3 +229,86 @@
 
 // let newFruits=fruits.slice(1,3);
 // console.log(newFruits);
+
+// practice----------------------
+
+//1. print hello world
+// console.log("Hello, World!");
+// or
+// let a="Hello, World!";
+// console.log(a);
+
+//2.print sum of two numbers
+// let a=10;
+// let b=15;
+// let c=a+b;
+// console.log(c);
+
+//3.Find even or odd number
+// let a=3;
+// if(a%2==0){
+//     console.log("Even");
+// }else{
+//     console.log("Odd");
+// }
+
+//4.Simple calculater
+// let a=10;
+// let b=5;
+// let operator="*";
+// if(operator=="+"){
+//     console.log(a+b);
+// }else if(operator=="-"){
+//     console.log(a-b);
+// }else if(operator=="*"){
+//     console.log(a*b);
+// }else if(operator=="/"){
+//     console.log(a/b);
+//     }else{
+//     console.log("Invalid operator");
+// };
+//5.print 1 to 100 numbers
+// for(let i=1;i<=100;i++){
+//     console.log(i);
+// }
+
+//6.how to reverse a number
+// let num=12345;
+// let rev=0;
+// while(num!=0){
+//     let digit=num%10;
+//     rev=rev*10+digit;
+//     num=Math.floor(num/10);
+// }
+// console.log(rev);
+
+//7.how to check prime number
+// let num=7;
+// let isPrime=true;
+// for(let i=2;i<=Math.sqrt(num);i++){
+//     if(num%i==0){
+//         isPrime=false;
+//         break;
+//     }
+// }
+// if(isPrime){
+//     console.log(num+" is a prime number");
+// }else{
+//     console.log(num+" is not a prime number");
+// }
+
+//8.find a element in an array
+// let arr=[1,2,3,4,5];
+// let element=3;
+// let found=false;
+// for(let i=0;i<arr.length;i++){
+//     if(arr[i]==element){
+//         found=true;
+//         break;
+//     }
+// }
+// if(found){
+//     console.log(element+" is in the array");
+// }else{
+//     console.log(element+" is not in the array");
+// }
