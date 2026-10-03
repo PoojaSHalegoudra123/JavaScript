@@ -183,3 +183,49 @@
 
 // let a= fact(5);
 // console.log(a);
+
+//Arrays--------------------------
+
+//let marks=[89,90,86,87];
+// let names=["pooja","nivvi","pooj"];
+// console.log(marks);
+// console.log(names);
+
+// let arr= new Array(5,4,3,2,1);
+// console.log(arr[2]);
+
+//using for loop
+// for(let i=0;i<marks.length;i++){
+//     console.log(marks[i]);
+// };
+
+// marks.forEach(function(marks){
+//     console.log(marks);
+// });
+
+// let fruits=["apple","banana","grapes","mango"];
+// console.log(fruits);
+
+// fruits.push("orange");
+// console.log(fruits);
+
+// fruits.pop();
+// console.log(fruits);
+
+// fruits.shift();
+// console.log(fruits);
+
+// fruits.unshift("kiwi");
+// console.log(fruits);
+
+// fruits.splice(1,2);
+// console.log(fruits);
+
+// fruits.splice(1,0,"banana","grapes");
+// console.log(fruits);
+
+// fruits.splice(1,1,"kiwi");
+// console.log(fruits);
+
+// let newFruits=fruits.slice(1,3);
+// console.log(newFruits);
