@@ -8,24 +8,38 @@
 // const c=20;
 // console.log(c);
 //Data types-------------------------
-let num=100;
-console.log(num);
-console.log(typeof num);
+// let num=100;
+// console.log(num);
+// console.log(typeof num);
 
-let first;
-console.log(first);
-console.log(typeof first);
+// let first;
+// console.log(first);
+// console.log(typeof first);
 
-let sec=true;
-console.log(sec);
-console.log(typeof sec);
+// let sec=true;
+// console.log(sec);
+// console.log(typeof sec);
 
-let third=null;
-console.log(third);
-console.log(typeof third);
+// let third=null;
+// console.log(third);
+// console.log(typeof third);
 
-let arr=[1,2,3,4,5];
-console.log(arr);
-console.log(typeof arr);
+// let arr=[1,2,3,4,5];
+// console.log(arr);
+// console.log(typeof arr);
+
+//Type conversion----------------
+let a=5;
+let b="10";
+console.log(a+b);
+console.log(typeof (a+b));
+
+let c=Number(b);
+console.log(a+c);
+console.log(typeof (a+c));
+
+let d=String(a);
+console.log(d);
+console.log(typeof d);
 
 
