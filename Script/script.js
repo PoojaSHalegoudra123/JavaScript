@@ -135,3 +135,51 @@
 //         console.log("select your EMI");
 //     }
 // }
+//Functions---------------------
+// function displayName(name)
+// {
+//     console.log(name);
+
+// } displayName("poo");
+// displayName("nivvi");
+
+//return
+
+// function displayName(name,age)
+// {
+//     console.log(name,age);
+//     if(age>18){
+//         return "Elegeble for voting";
+//     }else{
+//         return "go watch pogo"
+//     }
+//     }
+//     let a=displayName(" poo",22);
+//     let b=displayName(" pooj",26);
+//     let c=displayName(" pooja",7);
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+
+
+// function returnOne(one){
+//     if(one==1){
+//         return 1;
+//     }else{
+//         return returnOne(one-1);
+
+//     }
+// }
+// let a=returnOne(10);
+// console.log(a);
+
+// function fact(num){
+//     if(num<=1){
+//         return 1;
+//     }else{
+//         return num*fact(num-1)
+//     }
+// }
+
+// let a= fact(5);
+// console.log(a);
