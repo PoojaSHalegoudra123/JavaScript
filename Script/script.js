@@ -356,3 +356,51 @@
 
 // let person2=new Person("nivvi",26,"female");
 // person2.display();
+
+//classes--------------
+// class Person{
+//     walk(){
+//         console.log("Person is walking")
+//     }
+// }
+// let person1=new Person();
+// person1.walk();
+
+//using constructor
+// class Person{
+//     constructor(name,age){
+//         this.name=name;
+//         this.age=age;
+//     }
+//     walk(){
+//         console.log(this.name+" is walking")
+//     }
+// }
+// let person1=new Person("pooja",22);
+// person1.walk();
+
+// let person2=new Person("nivvi",26);
+// person2.walk();
+
+//inheritance----------------
+// class Person{
+//     constructor(name,age){
+//         this.name=name;
+//         this.age=age;
+//     }
+//     walk(){
+//         console.log(this.name+" is walking")
+//     }
+// }
+
+// class Student extends Person{
+//     constructor(name,age,rollNo){
+//         super(name,age);
+//         this.rollNo=rollNo;
+//     }
+//     display(){
+//         console.log("Name: "+this.name);
+//         console.log("Age: "+this.age);
+//         console.log("Roll No: "+this.rollNo);
+//     }
+// }
