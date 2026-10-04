@@ -312,3 +312,47 @@
 // }else{
 //     console.log(element+" is not in the array");
 // }
+
+//Objects and classes---------------------
+
+// let person={
+//     name:"pooja",
+//     age:22,
+//     gender:"female",
+//     address:{
+//         city:"pune",
+//         state:"maharashtra"
+//     }
+// };
+// console.log(person);
+
+// console.log(person.name);
+// console.log(person.age);
+// console.log(person.gender);
+// console.log(person.address.city);
+// console.log(person.address.state);
+
+// person.name="nivvi";
+// console.log(person.name);
+
+// person.address.city="mumbai";
+// console.log(person.address.city);
+
+// class Person{
+//     constructor(name,age,gender){
+//         this.name=name;
+//         this.age=age;
+//         this.gender=gender;
+//     }
+//     display(){
+//         console.log("Name: "+this.name);
+//         console.log("Age: "+this.age);
+//         console.log("Gender: "+this.gender);
+//     }
+// }
+
+// let person1=new Person("pooja",22,"female");
+// person1.display();
+
+// let person2=new Person("nivvi",26,"female");
+// person2.display();
